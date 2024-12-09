@@ -9,7 +9,7 @@ public class ClientController {
 
     @RequestMapping("/welcome")
     public String welcome() {
-        return "test"; // Redirects to test.jsp
+        return "test"; 
     }
 
     @RequestMapping("/test")
